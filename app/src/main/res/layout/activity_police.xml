@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    tools:context=".Police">
+
+
+    <LinearLayout
+        android:id="@+id/polic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/thakpolice"
+                android:layout_width="360dp"
+                android:layout_height="105dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="Thakurli Police Outpost"
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Open: 24 Hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="1.9KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/manpada"
+                android:layout_width="360dp"
+                android:layout_height="105dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <TextView
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="Thakurli Police Station Dombivli"
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Open: 24 Hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="2.3 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/manpadapolice"
+                android:layout_width="360dp"
+                android:layout_height="122dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="95dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="121dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/to_do"
+                        android:src="@drawable/manpadapolice1" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="Manpada Police Station "
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/open_24_hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="2.3 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/RTODomb"
+                android:layout_width="360dp"
+                android:layout_height="105dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="R.T.O Office Dombivli "
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Open: 24 Hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="3.30 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/trafficchowk"
+                android:layout_width="360dp"
+                android:layout_height="105dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="Traffic Police Chowk "
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Open: 24 Hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="6.50 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rtokalyan"
+                android:layout_width="360dp"
+                android:layout_height="122dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="106dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="135dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/to_do"
+                        android:src="@drawable/rtokalyan2" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="R.T.O Kalyan"
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/open_24_hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="5.2 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/deputykalyan"
+                android:layout_width="360dp"
+                android:layout_height="122dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="95dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="121dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/to_do"
+                        android:src="@drawable/deputyrtokal1" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="Deputy RTO Kalyan "
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/open_24_hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="7.8 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

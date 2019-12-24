@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#263547"
+    tools:context=".homeactivity">
+
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/to_do"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rickshawm"
+            />
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="92dp"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

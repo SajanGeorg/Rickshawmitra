@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "951263020488",
+    "firebase_url": "https://rickshaw-mitra-7aa4c.firebaseio.com",
+    "project_id": "rickshaw-mitra-7aa4c",
+    "storage_bucket": "rickshaw-mitra-7aa4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951263020488:android:899e4e7dd42c31e4c8acfd",
+        "android_client_info": {
+          "package_name": "com.example.splashdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951263020488-3e48rjpcpfulr54p3nm7coll37e75379.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.splashdemo",
+            "certificate_hash": "48af4c071e7a3fad9b7744631c7d1d9d0426b763"
+          }
+        },
+        {
+          "client_id": "951263020488-ng2tgho5icd260p49uk09ccmsivp6h7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjJ71XZmbJGjTcOX_qS_RTiNY1S7Ucvy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951263020488-ng2tgho5icd260p49uk09ccmsivp6h7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

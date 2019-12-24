@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Rickshaw Mitra</string>
+    <string name="main_activity">Main activity</string>
+    <string name="rickshaw_mitra">Rickshaw Mitra</string>
+    <string name="to_do">TODO</string>
+    <string name="sigingoogle">SIGN IN WITH GOOGLE</string>
+
+    <string name="firebase_login">firebaselogin</string>
+
+    <string name="nav_header_title">Android Studio</string>
+
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="textview">TextView</string>
+    <string name="check_your_bank_activities">Check your bank activities</string>
+    <string name="banking">Banking</string>
+    <string name="garage">Garage</string>
+    <string name="nearby_mechanic">Nearby Mechanic</string>
+    <string name="mechanic">Mechanic</string>
+    <string name="police">Police</string>
+    <string name="gas_station">Gas Station</string>
+
+    <string name="hotel">Hotel</string>
+    <string name="hospital">Hospital</string>
+    <string name="kilometer">INR 56990</string>
+    <string name="spare_part_shop">Spare Part Shop</string>
+    <string name="buy_or_rent_rickshaw">Buy or Rent Rickshaw</string>
+    <string name="todo">TODO</string>
+    <string name="dileep">Dileep Mechanic</string>
+    <string name="dileptime">Open at 9:00 Am to 9:00Pm</string>
+    <string name="distance">500 M</string>
+    <string name="title_activity_diliptab">diliptab</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="trouble_shoot">Trouble Shoot</string>
+    <string name="news">News</string>
+    <string name="about_us">About us</string>
+    <string name="home">Home</string>
+
+    <!-- TODO: Mechanic Strings -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone">Phone</string>
+    <string name="_9325798451">9325798451</string>
+    <string name="rating">Rating</string>
+    <string name="address">Address</string>
+    <string name="dilipaddr">MIDC,phase I ,Khambalpada,New Kalyan Rd,Dombivli East,Thane,Maharashtra 421203</string>
+    <string name="title_activity_dilipmaper">Map</string>
+    <string name="guider_of_rickshaw_driver_s">Guider of Rickshaw Driver\'s</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="guider_of_rickshaw_drivers">Guider of Rickshaw Drivers</string>
+    <!-- Hospital Strings -->
+
+    <string name="r_r_hospital">R R Hospital</string>
+    <string name="aims_hospital">AIMS Hospital</string>
+    <string name="open_24_hours">Open: 24 Hours</string>
+    <string name="_2_5_km">2.5 KM</string>
+    <string name="kamat_hospital">Kamat Hospital</string>
+    <string name="_2_6_km">2.6 KM</string>
+    <string name="thakur_hospital">Thakur Hospital</string>
+    <string name="_2_7_km">2.7 KM</string>
+    <string name="_4_0_km">4.0 KM</string>
+    <string name="venus_hospital">Venus Hospital</string>
+    <string name="_1_9_km">1.9 KM</string>
+    <string name="amruta_hospital">Amrut Hospital</string>
+    <string name="srva_mamta_hospital">SRV Mamta Hospital</string>
+    <string name="mahanagar_cng_pump">Mahanagar CNG Pump</string>
+    <string name="bharat_petrol_amp_cng_pump"><![CDATA[Bharat Petrol & CNG Pump]]></string>
+    <string name="usma_petrol_pump_cng"><![CDATA[Usma Petrol Pump & CNG]]></string>
+    <string name="techno_petrol_pump_amp_cng"><![CDATA[Techno Petrol Pump & CNG]]></string>
+    <string name="h_p_petrol_pump">H.P Petrol Pump</string>
+    <string name="bharat_petroleum_petrol_pump">Bharat Petroleum Pump</string>
+    <string name="ravi_auto_petrol_pump">Ravi Auto Petrol Pump</string>
+    <string name="shakti_auto_parts_garage"><![CDATA[Shakti Auto Parts & Garage]]></string>
+
+
+</resources>

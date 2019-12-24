@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    tools:context=".Hotel">
+
+
+    <LinearLayout
+        android:id="@+id/hotels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fieryking"
+                android:layout_width="360dp"
+                android:layout_height="122dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="95dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/imagew2"
+                        android:layout_width="0dp"
+                        android:layout_height="121dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/to_do"
+                        android:src="@drawable/fieryking1" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/rrh"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="Fiery Kitchen"
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/open_24_hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+                    android:id="@+id/textView2"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="1.3 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/aims"
+                android:layout_width="360dp"
+                android:layout_height="122dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="108dp"
+                    android:layout_height="103dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/imageViw2"
+                        android:layout_width="0dp"
+                        android:layout_height="117dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/to_do"
+                        android:src="@drawable/manishcant1" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/ams"
+                   android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="Manish Canteen"
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVih3"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/open_24_hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+                    android:id="@+id/txtView2"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="1.4 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:id="@+id/ieView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/amruthosp"
+                android:layout_width="360dp"
+                android:layout_height="122dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="95dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/imageV2"
+                        android:layout_width="0dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/to_do"
+                        android:src="@drawable/snacksadda1" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/amrt"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="Snacks Adda Hotel"
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVgew3"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/open_24_hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+                    android:id="@+id/textniew2"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="1.6 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:id="@+id/imageVef3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/KamatHospt"
+                android:layout_width="360dp"
+                android:layout_height="122dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="95dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/igeV2"
+                        android:layout_width="0dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/to_do"
+                        android:src="@drawable/rangolirest1" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/kmt"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="Rangoli Restaurant"
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textw3"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/open_24_hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+                    android:id="@+id/txtniew2"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="@string/_2_6_km"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:id="@+id/imageVief3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ThakurHospt"
+                android:layout_width="360dp"
+                android:layout_height="122dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="95dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/juj"
+                        android:layout_width="0dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/to_do"
+                        android:src="@drawable/ambikahot1" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/thk"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="Hotel Ambika Pure Veg"
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/thg"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/open_24_hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+                    android:id="@+id/ghh"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="3.0 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:id="@+id/imief3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/MamtaHospt"
+                android:layout_width="360dp"
+                android:layout_height="122dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="95dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/mmta"
+                        android:layout_width="0dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/to_do"
+                        android:src="@drawable/moderncafe1" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/mmtak"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="New Modern Cafe"
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tkhfg"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/open_24_hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+                    android:id="@+id/gfkhh"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="3.03 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:id="@+id/imfief3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/VenusHospt"
+                android:layout_width="360dp"
+                android:layout_height="122dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="95dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/imaggew2"
+                        android:layout_width="0dp"
+                        android:layout_height="121dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/to_do"
+                        android:src="@drawable/shivsagar1" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/hjy"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+
+                    android:layout_marginTop="11dp"
+
+                    android:text="Sagar Restaurant"
+                    android:textColor="#2C2828"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/hgy"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/open_24_hours"
+                    android:textColor="#D51E1E" />
+
+                <TextView
+                    android:id="@+id/jjjg"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="76dp"
+                    android:background="#009688"
+                    android:text="3.10 KM"
+                    android:textColor="#0323F4" />
+
+                <ImageView
+                    android:id="@+id/jjj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="72dp"
+                    android:contentDescription="@string/to_do"
+                    app:srcCompat="@drawable/run"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
