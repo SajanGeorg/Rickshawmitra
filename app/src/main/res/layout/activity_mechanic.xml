@@ -406,7 +406,7 @@
          android:orientation="horizontal">
 
          <androidx.cardview.widget.CardView
-             android:id="@+id/rajumech"
+             android:id="@+id/pandtmech"
              android:layout_width="360dp"
              android:layout_height="105dp"
              android:layout_margin="10dp"

@@ -12,6 +12,8 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".RRHospitalActivity"></activity>
+        <activity android:name=".RRHospitalActivity"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -40,6 +42,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.splashdemo.DileepActivity" />
         </activity>
+        <activity android:name=".PandTMechMechActivity" />
+        <activity android:name=".DombMechActivity" />
+        <activity android:name=".SagarMechActivity" />
+        <activity android:name=".JituMechActivity" />
+        <activity android:name=".ShaktiMechActivity" />
         <activity android:name=".DileepActivity" />
         <activity android:name=".BuyRent" />
         <activity android:name=".Sparepart" />
@@ -85,6 +92,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AimsHospitalActivity" />
     </application>
 
 </manifest>

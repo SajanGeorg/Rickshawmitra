@@ -15,6 +15,8 @@ public class Hospital extends AppCompatActivity implements View.OnClickListener 
         setContentView(R.layout.activity_hospital);
         CardView rrhospital = findViewById(R.id.rrhosp);
         rrhospital.setOnClickListener(this);
+        CardView aimshosp = findViewById(R.id.aims);
+        aimshosp.setOnClickListener(this);
     }
 
     @Override
@@ -22,6 +24,10 @@ public class Hospital extends AppCompatActivity implements View.OnClickListener 
         Intent i;
         if (view.getId() == R.id.rrhosp) {
             i = new Intent(this,RRHospitalActivity.class);
+            startActivity(i);
+        }
+        if (view.getId() == R.id.aims) {
+            i = new Intent(this,AimsHospitalActivity.class);
             startActivity(i);
         }
     }
