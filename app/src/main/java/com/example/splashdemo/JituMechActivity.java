@@ -21,7 +21,7 @@ public class JituMechActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dileep);
+        setContentView(R.layout.activity_jitumech);
         ActionBar actionBar=getSupportActionBar();
         assert actionBar != null;
         actionBar.hide();

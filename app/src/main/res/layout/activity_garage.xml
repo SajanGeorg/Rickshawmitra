@@ -22,7 +22,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/dilip"
+                android:id="@+id/shaktigarage"
                 android:layout_width="360dp"
                 android:layout_height="105dp"
                 android:layout_margin="10dp"
@@ -102,7 +102,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/shaktimech"
+                android:id="@+id/jitugarage"
                 android:layout_width="360dp"
                 android:layout_height="105dp"
                 android:layout_margin="10dp"
@@ -179,7 +179,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/jitumech"
+                android:id="@+id/rajugarage"
                 android:layout_width="360dp"
                 android:layout_height="105dp"
                 android:layout_margin="10dp"
@@ -331,7 +331,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/dombivlimech"
+                android:id="@+id/askokgarage"
                 android:layout_width="360dp"
                 android:layout_height="105dp"
                 android:layout_margin="10dp"
@@ -406,7 +406,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/rajumech"
+                android:id="@+id/pandgarage"
                 android:layout_width="360dp"
                 android:layout_height="105dp"
                 android:layout_margin="10dp"

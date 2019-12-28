@@ -93,6 +93,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".AimsHospitalActivity" />
+        <activity android:name=".ShaktiGarageActivity" />
+        <activity android:name=".JituGarageActivity" />
+        <activity android:name=".RajuGarageActivity" />
+        <activity android:name=".SagarGarageActivity" />
+        <activity android:name=".AshokGarageActivity" />
+        <activity android:name=".PandTGarageActivity" />
     </application>
 
 </manifest>

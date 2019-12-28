@@ -38,7 +38,7 @@
         android:layout_marginBottom="371dp"
         android:autoLink="phone"
         android:linksClickable="true"
-        android:text="@string/_9325798451"
+        android:text="7988515442"
         android:textColor="#0E0C0C"
         android:textStyle="normal|bold"
          />
@@ -73,7 +73,7 @@
         android:layout_marginTop="298dp"
         android:layout_marginEnd="-24dp"
         android:layout_marginBottom="252dp"
-        android:text="@string/dilipaddr"
+        android:text="Near To Nandivli "
         android:textColor="#352F2F"
         android:textSize="15sp"
         android:textStyle="bold" />
