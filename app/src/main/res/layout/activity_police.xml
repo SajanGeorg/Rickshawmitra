@@ -82,7 +82,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/manpada"
+                android:id="@+id/thakpoilcestation"
                 android:layout_width="360dp"
                 android:layout_height="105dp"
                 android:layout_margin="10dp"

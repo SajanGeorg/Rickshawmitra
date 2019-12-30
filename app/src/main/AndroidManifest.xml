@@ -99,6 +99,20 @@
         <activity android:name=".SagarGarageActivity" />
         <activity android:name=".AshokGarageActivity" />
         <activity android:name=".PandTGarageActivity" />
+        <activity android:name=".MahanagarCNGActivity" />
+        <activity android:name=".BharatCNGActivity" />
+        <activity android:name=".UsmaCNGActivity" />
+        <activity android:name=".TechnoPetActivity" />
+        <activity android:name=".HPPetrActivity" />
+        <activity android:name=".BharatPetroleumActivity" />
+        <activity android:name=".RaviPetroleumActivity" />
+        <activity android:name=".ThakurliOutpoliceActivity" />
+        <activity android:name=".ThakurliPoliceActivity" />
+        <activity android:name=".ManpadaPoliceActivity" />
+        <activity android:name=".RTODombActivity" />
+        <activity android:name=".TrafficchowkActivity" />
+        <activity android:name=".RTOKalyanActivity" />
+        <activity android:name=".DeputyKalyanActivity" />
     </application>
 
 </manifest>
