@@ -115,6 +115,10 @@
         <activity android:name=".DeputyKalyanActivity" />
         <activity android:name=".Payment" />
         <activity android:name=".MiddayActivity" />
+        <activity android:name=".TimesIndiaActivity" />
+        <activity android:name=".LokmatActivity" />
+        <activity android:name=".RaftaarActivity" />
+        <activity android:name=".NdtvActivity" />
     </application>
 
 </manifest>
