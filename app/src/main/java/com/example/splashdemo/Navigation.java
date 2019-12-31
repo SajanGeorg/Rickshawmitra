@@ -42,6 +42,8 @@ Navigation extends AppCompatActivity
         CardView gasstationCard = findViewById(R.id.gasstation);
         CardView sparepartcard = findViewById(R.id.sparepart);
         CardView buyrentcard = findViewById(R.id.buyrent);
+        CardView newscard = findViewById(R.id.news);
+        CardView paymentcard = findViewById(R.id.pay);
         mechanicCard.setOnClickListener(this);
         garageCard.setOnClickListener(this);
         gasstationCard.setOnClickListener(this);
@@ -50,6 +52,8 @@ Navigation extends AppCompatActivity
         hotelCard.setOnClickListener(this);
         sparepartcard.setOnClickListener(this);
         buyrentcard.setOnClickListener(this);
+        newscard.setOnClickListener(this);
+        paymentcard.setOnClickListener(this);
     }
 
     @Override
@@ -158,6 +162,14 @@ Navigation extends AppCompatActivity
                 break;
             case R.id.buyrent:
                 i = new Intent(this, BuyRent.class);
+                startActivity(i);
+                break;
+            case R.id.news:
+                i = new Intent(this, News.class);
+                startActivity(i);
+                break;
+            case R.id.pay:
+                i = new Intent(this, Payment.class);
                 startActivity(i);
                 break;
 
