@@ -20,7 +20,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".HindustanTimes"></activity>
+        <activity android:name=".VenusHospitalActivity"></activity>
+        <activity android:name=".MamtaHospitalActivity" />
+        <activity android:name=".ThakurHospitalActivity" />
+        <activity android:name=".KamatHospitalActivity" />
+        <activity android:name=".AmrutHospitalActivity" />
+        <activity android:name=".HindustanTimes" />
         <activity android:name=".News" />
         <activity android:name=".RRHospitalActivity" />
         <!--
