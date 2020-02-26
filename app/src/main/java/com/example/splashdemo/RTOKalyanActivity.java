@@ -38,9 +38,9 @@ public class RTOKalyanActivity extends AppCompatActivity {
 
        private void setmViewPager(ViewPager viewPager){
         viewPagerAdapter adapter=new viewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new TechnoPetFragmentAbout() ,"About");
-        adapter.addFragment(new TechnoPetFragmentGalllery(),"Gallery");
-        adapter.addFragment(new TechnoPetFragmentMap(),"Map");
+        adapter.addFragment(new RTOKalyanFragmentAbout() ,"About");
+        adapter.addFragment(new RTOKalyanFragmentGalllery(),"Gallery");
+        adapter.addFragment(new RTOKalyanFragmentMap(),"Map");
 
         viewPager.setAdapter(adapter);
 

@@ -38,7 +38,7 @@
         android:layout_marginBottom="371dp"
         android:autoLink="phone"
         android:linksClickable="true"
-        android:text="7988515442"
+        android:text="@string/_7988515442"
         android:textColor="#0E0C0C"
         android:textStyle="normal|bold"
          />
@@ -79,38 +79,7 @@
         android:textStyle="bold" />
 
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="83dp"
-        android:layout_height="36dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="385dp"
-        android:layout_marginEnd="292dp"
-        android:layout_marginBottom="183dp"
-        android:text="@string/rating"
-        android:textColor="#0C0C0C"
-        android:textStyle="normal|bold" />
 
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="376dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="173dp"
-        android:isIndicator="true"
-        android:numStars="5"
-        android:rating="4"
-        android:stepSize="0.1" />
 
 
 </RelativeLayout>

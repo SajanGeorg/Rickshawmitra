@@ -20,7 +20,7 @@
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="37dp"
         android:contentDescription="@string/to_do"
-        android:src="@drawable/rtokalyan1" />
+        android:src="@drawable/rtokalyan2" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -35,6 +35,6 @@
         android:layout_marginEnd="49dp"
         android:layout_marginBottom="325dp"
         android:contentDescription="@string/to_do"
-        android:src="@drawable/rtokalyan2" />
+        android:src="@drawable/rtokalyan1" />
 
 </RelativeLayout>
