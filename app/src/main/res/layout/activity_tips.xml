@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tips1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="@string/to_do"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="1. Inspect engine oil regularly "
+            android:textColor="#090808"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="394dp"
+            android:layout_height="229dp"
+            android:contentDescription="@string/to_do"
+            android:src="@drawable/engineoil" />
+        <TextView
+            android:id="@+id/tips2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/diesel"
+            android:textColor="#0A0A0A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="@string/to_do"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="2. Drive at an ideal speed "
+            android:textColor="#090808"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="436dp"
+            android:layout_height="229dp"
+            android:contentDescription="@string/to_do"
+            android:src="@drawable/meter1" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/speed"
+            android:textColor="#0A0A0A"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="@string/to_do"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="3.Check tyre pressure regularly "
+            android:textColor="#090808"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+        <ImageView
+            android:layout_width="436dp"
+            android:layout_height="229dp"
+            android:contentDescription="@string/to_do"
+            android:src="@drawable/tyre_pressure" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:text="@string/airpressure"
+            android:textColor="#0A0A0A" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="@string/to_do"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="4.Be transparent "
+            android:textColor="#090808"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+        <ImageView
+            android:layout_width="426dp"
+            android:layout_height="229dp"
+            android:contentDescription="@string/to_do"
+            android:src="@drawable/meter" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:text="@string/negotion"
+            android:textColor="#0A0A0A" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="@string/to_do"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="5.Check braking system periodically"
+            android:textColor="#090808"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="436dp"
+            android:layout_height="229dp"
+            android:contentDescription="@string/to_do"
+            android:src="@drawable/brakesystem" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:text="@string/braking"
+            android:textColor="#0A0A0A" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="@string/to_do"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="6. Pay attention to appearance"
+            android:textColor="#090808"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+        <ImageView
+            android:layout_width="436dp"
+            android:layout_height="229dp"
+            android:contentDescription="@string/to_do"
+            android:src="@drawable/appearance" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:text="@string/convince"
+            android:textColor="#0A0A0A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="@string/to_do"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="7. Maintain Battery"
+            android:textColor="#090808"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tips6"
+            android:layout_width="match_parent"
+            android:layout_height="599dp"
+            android:text="@string/rickbattery"
+            android:textColor="#0A0A0A"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/finalmsg"
+            android:textColor="#E42618"
+
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
